@@ -1,0 +1,53 @@
+2023.09.14 10:23:11 INFO  Started: Metals version 1.0.1 in folders '/home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3' for client Visual Studio Code 1.82.1.[0m
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.2 by Redgate
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.FlywayExecutor execute
+INFO: Database: jdbc:h2:file:/home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/.metals/metals (H2 2.1)
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.023s)
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Sep 14, 2023 10:23:11 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.038s)
+2023.09.14 10:23:11 INFO  time: initialize in 0.78s[0m
+Sep 14, 2023 10:23:12 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.09.14 10:23:14 INFO  Running List(/home/andreas/.local/share/coursier/bin/scala-cli, setup-ide, /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3)[0m
+2023.09.14 10:23:14 INFO  Attempting to connect to the build server...[0m
+2023.09.14 10:23:14 INFO  Running BSP server List(/home/andreas/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/.scala-build/ide-options-v2.json, /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3)[0m
+2023.09.14 10:23:14 INFO  Attempting to connect to the build server...[0m
+2023.09.14 10:23:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/.metals/bsp.trace.json or /home/andreas/.cache/metals/bsp.trace.json[0m
+2023.09.14 10:23:14 INFO  Running BSP server List(/home/andreas/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/.scala-build/ide-options-v2.json, /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3)[0m
+2023.09.14 10:23:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/.metals/bsp.trace.json or /home/andreas/.cache/metals/bsp.trace.json[0m
+2023.09.14 10:23:14 INFO  time: Connected to build server in 0.67s[0m
+2023.09.14 10:23:14 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.09.14 10:23:14 INFO  time: Connected to build server in 0.62s[0m
+2023.09.14 10:23:14 INFO  Connected to Build server: scala-cli v1.0.4[0m
+2023.09.14 10:23:14 INFO  Deduplicating compilation of edaa60-lab3_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 0.548s)[0m
+2023.09.14 10:23:15 INFO  no build target found for /home/andreas/Dev/lth/edaa60/git-practice/edaa60-lab3/HelloWorld.scala. Using presentation compiler with project's scala-library version: 3.3.0[0m
+2023.09.14 10:23:15 INFO  compiling edaa60-lab3_bd2c96d2de (1 scala source)[0m
+2023.09.14 10:23:14 INFO  compiling edaa60-lab3_bd2c96d2de (1 scala source)[0m
+2023.09.14 10:23:15 INFO  time: code lens generation in 2.81s[0m
+2023.09.14 10:23:16 INFO  time: Imported build in 1.26s[0m
+2023.09.14 10:23:16 INFO  time: Imported build in 1.21s[0m
+2023.09.14 10:23:16 INFO  Deduplicating compilation of edaa60-lab3_bd2c96d2de from bsp client 'scala-cli 1.0.4' (since 2.117s)[0m
+2023.09.14 10:23:16 INFO  time: indexed workspace in 0.72s[0m
+2023.09.14 10:23:17 INFO  time: indexed workspace in 1.03s[0m
+2023.09.14 10:23:19 INFO  compiling edaa60-lab3_bd2c96d2de (1 scala source)[0m
+2023.09.14 10:23:20 INFO  time: compiled edaa60-lab3_bd2c96d2de in 1.77s[0m
